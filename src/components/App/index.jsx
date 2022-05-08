@@ -1,6 +1,7 @@
 import React from 'react'
 import  Menu  from '../Menu'
 import  Cover  from '../Cover'
+import SayHello from '../SayHello'
 import './App.scss'
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <>
       <Menu />
       <Cover />
+      <SayHello/>
     </>
   )
 }
