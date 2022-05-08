@@ -1,0 +1,22 @@
+@import '../../sass/fonts';
+@import '../../sass/variables';
+
+.button__call-to-action {
+  display: inline-block;
+  height: 4rem;
+  width: 18rem;
+  font-size: $text-small;
+  font-weight: 600;
+  border-radius: 14px;
+  color: $color-white;
+  border: 2px solid $color-gray-dark;
+  background-color: transparent;
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+  transition: all 400ms;
+}
+
+.button__call-to-action:hover {
+  background-color: $color-gray-dark;
+  transform: scale(1.1);
+}

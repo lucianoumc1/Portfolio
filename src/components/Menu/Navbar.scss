@@ -1,0 +1,32 @@
+@import '../../sass/variables';
+@import '../../sass/fonts';
+
+.navbar-menu__section {
+  width: 100vw;
+  height: 10rem;
+  background-color: $color-background-base;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.navbar-menu__container ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1rem;
+}
+
+.navbar-menu__container li a {
+  padding: 0 1rem;
+  font-size: $text-regular;
+  font-weight: 600;
+  color: $color-white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar-menu__container li a:hover {
+  color: $color-primary;
+}

@@ -1,0 +1,38 @@
+@import '../../sass/variables';
+@import '../../sass/fonts';
+
+.cover__section {
+  display: block;
+  height: 85vh;
+  width: 100vw;
+  background-image: url('../../assets/images/cover-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cover__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 8rem;
+}
+
+.cover__section h1 {
+  color: $color-white ;
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 6.2rem;
+}
+
+.cover__section h2 {
+  color: $color-white ;
+  font-size: $text-regular;
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+.cover-content__buttons {
+  margin-top: 3rem;
+}
