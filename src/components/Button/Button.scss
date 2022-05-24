@@ -11,11 +11,12 @@
   font-weight: 600;
   height: 4rem;
   margin: 0 1rem 1rem;
-  transition: all 400ms;
+  transition: background-color, transform 400ms;
   width: 18rem;
 }
 
 .button__call-to-action:hover {
   background-color: $color-gray-dark;
   transform: scale(1.1);
+  border: none;
 }

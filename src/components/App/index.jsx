@@ -1,15 +1,17 @@
-import React from 'react'
 import  Menu  from '../Menu'
 import  Cover  from '../Cover'
 import SayHello from '../SayHello'
-import './App.scss'
+import Proyects from '../Proyects'
+import Skills from '../Skills'
 
 export default function App() {
   return (
     <>
       <Menu />
       <Cover />
-      <SayHello/>
+      <Skills />
+      <Proyects />
+      <SayHello />
     </>
   )
 }
