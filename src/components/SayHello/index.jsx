@@ -9,11 +9,11 @@ export default function SayHello() {
           <h2>Say hi</h2>
           <h4 className='say-hello__email'>lucianoumc1@gmail.com</h4>
           <span className='break-line'></span>
-          <p>Me fascina hacer y aprender cosas nuevas, y difruto mucho programar, asi que te invito a que regreses pronto a mi web.
-            Seguro habra muchas cosas mas para ver.
-            Y si te gustaron mis proyectos, o queres saber mas sobre mi,
-            te invito a que conversemos, voy a estar encantado de responder tus mensajes. 👇✉️</p>
-          <p className='author--name'>Luciano Madroñal Correa</p>
+          <p>Me fascina hacer y aprender cosas nuevas, y disfruto mucho programar, as&iacute; que te invito a que regreses pronto a mi web.
+            Seguro habr&aacute; muchas cosas m&aacute;s para ver.
+            Y si te gustaron mis proyectos, o queres saber m&aacute;s sobre m&iacute;,
+            te invito a que conversemos, voy a estar encantado de responder tus mensajes.👇✉️</p>
+          <p className='author--name'>Luciano Madro&ntilde;al Correa</p>
           <p className='author--from'>Buenos Aires, Argentina</p>
           <SocialMediaList/>
         </div>

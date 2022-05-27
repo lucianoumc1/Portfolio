@@ -4,7 +4,7 @@ import './Skills.scss'
 export default function Skills() {
   return (
     <section className='Skills'>
-      <h2 className='skills__tittle'>Lenguajes & Tecnologias</h2>
+      <h2 className='skills__tittle'>Lenguajes &amp; Tecnolog&iacute;as</h2>
       <div className='skills__container'>
         
         {skills.map(el => {
