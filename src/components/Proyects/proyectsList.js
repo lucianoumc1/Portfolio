@@ -17,7 +17,7 @@ const proyectsList = [
   {
     tittle: "Chat App",
     description:
-      "Aplicación web p capaz de gestionar conversaciones entre distintos usuarios, al estilo de WhatsApp Web",
+      "Aplicación web capaz de gestionar conversaciones entre distintos usuarios, al estilo de WhatsApp Web",
     image: chatappImage,
     github: "https://github.com/lucianoumc1/chat-application",
   },

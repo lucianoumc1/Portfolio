@@ -14,7 +14,8 @@ export default function Cover() {
           <h1> Hola, soy Luciano</h1>
         </div>
         <h2>
-          Soy un desarrollador Front-End y aficionado de la tecnolog&iacute;a 🖥️
+          Soy un desarrollador Full-Stack y aficionado de la tecnolog&iacute;a
+          🖥️
         </h2>
         <div className="cover-content__buttons">
           <Buttton name="Contacto" handleClick={contactHandleClickContact} />
