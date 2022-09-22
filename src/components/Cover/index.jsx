@@ -1,5 +1,5 @@
 import Buttton from "../Button";
-import cv from "../../assets/Luciano Madronal-CV.pdf";
+import cv from "../../assets/Fullstack_Developer_Luciano_Madronal_ES_CV.pdf";
 import "./Cover.scss";
 
 export default function Cover() {
